@@ -17,8 +17,8 @@
 <a href="https://jupyter.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="jupyter" width="60" height="60"/> </a>
 <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png" alt="pycharm" width="60" height="60"/> </a>
 <a href="https://www.talend.com/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Talend_logo.svg" alt="talend" width="60" height="60"/> </a>
-<a href="https://databricks.com/" target="_blank"> <img src="https://databricks.com/wp-content/uploads/2020/04/og-databricks.png" alt="databricks" width="60" height="60"/> </a> 
-<a href="https://spark.apache.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" alt="spark" width="60" height="60"/> </a> 
+<a href="https://databricks.com/" target="_blank"> <img src="https://databricks.com/wp-content/uploads/2020/04/og-databricks.png" alt="databricks" width="80" height="60"/> </a> 
+<a href="https://spark.apache.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" alt="spark" width="60" height="80"/> </a> 
 <a href="https://azure.microsoft.com/en-in/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="60" height="60"/> </a> 
 <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="60" height="60"/> </a> 
 <a href="https://hive.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="60" height="60"/> </a> 
