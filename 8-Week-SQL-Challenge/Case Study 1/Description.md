@@ -1,12 +1,12 @@
 --------------------------------
---CASE STUDY #1: DANNY'S DINER--
+CASE STUDY #1: DANNY'S DINER
 --------------------------------
 
 --Author: Sumit Kumar
 --Date: 14/09/2021
 --Tool used: MySQL
 
-CREATE SCHEMA dannys_diner;
+CREATE DATABASE dannys_diner;
 
 CREATE TABLE sales (
   "customer_id" VARCHAR(1),
@@ -14,9 +14,8 @@ CREATE TABLE sales (
   "product_id" INTEGER
 );
 
-INSERT INTO sales
-  ("customer_id", "order_date", "product_id")
-VALUES
+INSERT INTO sales ("customer_id", "order_date", "product_id")
+  VALUES 
   ('A', '2021-01-01', '1'),
   ('A', '2021-01-01', '2'),
   ('A', '2021-01-07', '2'),
