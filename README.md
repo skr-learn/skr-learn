@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working in **Mr Cooper**
 
-- 🌱 I’m currently learning **8-week-SQL-Challenge**
+- 🌱 I’m currently working on **Databricks (PySpark)**
 
 - 💬 Ask me about **SQL and Data!**
 
