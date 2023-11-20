@@ -13,6 +13,7 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
 <a href="https://databricks.com/" target="_blank"> <img src="https://databricks.com/wp-content/uploads/2020/04/og-databricks.png" alt="databricks" width="80" height="60"/> </a> 
+<a href="https://camo.githubusercontent.com/" target="_blank"> <img src="https://camo.githubusercontent.com/5535944a613e60c9be4d3a96e3d9bd34e5aba5cddc1aa6c6153123a958698289/68747470733a2f2f646f63732e64656c74612e696f2f6c61746573742f5f7374617469632f64656c74612d6c616b652d77686974652e706e67" alt="Delta Lake" width="80" height="60"/> </a> 
 <a href="https://spark.apache.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png" alt="spark" width="80" height="60"/> </a> 
 <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/> </a>
 <a href="https://azure.microsoft.com/en-in/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="60" height="60"/> </a> 
