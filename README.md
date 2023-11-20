@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sumit Kumar!</h1>
 <h3 align="center">Data Engineer - Keep Learning</h3>
 
-- 🔭 I’m currently working in **Mr Cooper**
+- 🔭 I’m currently working in **Tredence Inc.**
 
 - 🌱 I’m currently working on **Databricks (PySpark)**
 
