@@ -7,7 +7,7 @@
 
 💬 Discuss about **Data!**
 
-📫 How to reach me **sumkumar.bes@gmail.com**
+📫 Reach me @ **sumkumar.bes@gmail.com**
 
 
 <h3 align="left">Languages and Tools:</h3>
