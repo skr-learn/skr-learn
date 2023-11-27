@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Sumit Kumar!</h1>
 <h3 align="center">🌟Data Engineer - Empowering Data for Future Advancements🌟</h3>
 
-- 🔭 I’m currently working in **Tredence Inc.**
+🔭 I’m currently working in **Tredence Inc.**
 
-- 🌱 A motivated, optimistic and result-driven Data professional with over 7 years of experience in 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀, 𝗦𝗽𝗮𝗿𝗸, Talend, Cloud, Hadoop, 𝗘𝗧𝗟, 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲, 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗶𝗻𝗴, database operations.
+🌱 A motivated, optimistic and result-driven Data professional with over 7 years of experience in 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀, 𝗦𝗽𝗮𝗿𝗸, Talend, Cloud, Hadoop, 𝗘𝗧𝗟, 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲, 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗶𝗻𝗴, database operations.
 
-- 💬 Discuss about **Data!**
+💬 Discuss about **Data!**
 
-- 📫 How to reach me **sumkumar.bes@gmail.com**
+📫 How to reach me **sumkumar.bes@gmail.com**
 
 
 <h3 align="left">Languages and Tools:</h3>
