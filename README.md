@@ -3,7 +3,7 @@
 
 👋 Welcome to my data engineering journey! I'm a motivated, optimistic and result-driven Data professional with over 7 years of experience in 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀, 𝗦𝗽𝗮𝗿𝗸, SQL, 𝗗𝗮𝘁𝗮 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲, Cloud, Hadoop, 𝗘𝗧𝗟, Talend, 𝗗𝗮𝘁𝗮 𝗪𝗮𝗿𝗲𝗵𝗼𝘂𝘀𝗶𝗻𝗴, database operations. 
 
-🌱 🔭 I’m currently working in **Tredence Inc**, and prefer to leverage upto date technologies to extract insights, streamline processes, and build robust data pipelines.
+🌱 I’m currently working in **Tredence Inc**, and prefer to leverage upto date technologies to extract insights, streamline processes, and build robust data pipelines.
 
 🚀 As a data engineer, I'm constantly exploring innovative ways to optimize data infrastructure and ensure scalability. My repository is a testament to my ongoing pursuit of learning and improvement in the field of data engineering.
 
@@ -17,7 +17,7 @@
 
 Connect with me on LinkedIn: <a href="https://linkedin.com/in/sumitmanpur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumitmanpur" height="20" width="15" /></a>
 
-Let's dive into the world of data engineering and create something amazing together! 📊✨
+🔭 Let's dive into the world of data engineering and create something amazing together! 📊✨
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
