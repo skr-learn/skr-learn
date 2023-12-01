@@ -15,7 +15,7 @@
 
 📫 Reach me @ **sumkumar.bes@gmail.com**
 
-Connect with me on LinkedIn: <a href="https://linkedin.com/in/sumitmanpur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumitmanpur" height="20" width="15" /></a>
+🌐 Connect with me on LinkedIn: <a href="https://linkedin.com/in/sumitmanpur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sumitmanpur" height="20" width="15" /></a>
 
 🔭 Let's dive into the world of data engineering and create something amazing together! 📊✨
 
