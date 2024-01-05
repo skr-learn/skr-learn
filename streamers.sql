@@ -1,68 +1,84 @@
-WITH StreamerTotalStreams AS (
+WITH StreamerStreams AS (
     SELECT
-        streamer_id,
+        s.username AS username,
         COUNT(*) AS total_streams
     FROM
-        completed_streams
+        streamers s
+    LEFT JOIN
+        completed_streams cs ON s.id = cs.streamer_id
     GROUP BY
-        streamer_id
+        s.username
 ),
 StreamerAvgStreamDuration AS (
     SELECT
-        streamer_id,
-        AVG(duration) AS avg_duration
+        s.username AS username,
+        CEIL(AVG(cs.duration)) AS avg_stream_duration
     FROM
-        completed_streams
+        streamers s
+    LEFT JOIN
+        completed_streams cs ON s.id = cs.streamer_id
     GROUP BY
-        streamer_id
+        s.username
 ),
 StreamerTotalViewers AS (
     SELECT
-        streamer_id,
+        s.username AS username,
         COUNT(*) AS total_viewers
     FROM
-        viewers
+        streamers s
+    LEFT JOIN
+        completed_streams cs ON s.id = cs.streamer_id
+    LEFT JOIN
+        viewers v ON cs.id = v.stream_id
     GROUP BY
-        streamer_id
+        s.username
 ),
 StreamerUniqViewersGt30Min AS (
     SELECT
-        streamer_id,
-        COUNT(DISTINCT v.id) AS uniq_viewers_gt_30
+        s.username AS username,
+        COUNT(DISTINCT v.id) AS uniq_viewers_gt_30min
     FROM
-        viewers v
+        streamers s
+    LEFT JOIN
+        completed_streams cs ON s.id = cs.streamer_id
+    LEFT JOIN
+        viewers v ON cs.id = v.stream_id
     WHERE
-        v.duration > 30
+        v.duration > 1800 
     GROUP BY
-        streamer_id
+        s.username
 ),
 StreamerUniqViewersLte30Min AS (
     SELECT
-        streamer_id,
-        COUNT(DISTINCT v.id) AS uniq_viewers_lte_30
+        s.username AS username,
+        COUNT(DISTINCT v.id) AS uniq_viewers_lte_30min
     FROM
-        viewers v
+        streamers s
+    LEFT JOIN
+        completed_streams cs ON s.id = cs.streamer_id
+    LEFT JOIN
+        viewers v ON cs.id = v.stream_id
     WHERE
-        v.duration <= 30
+        v.duration <= 1800 
     GROUP BY
-        streamer_id
+        s.username
 )
 SELECT
-    s.username AS streamer_username,
-    ts.total_streams,
-    avg_stream_duration.avg_duration AS avg_stream_duration,
-    total_viewers.total_viewers AS total_viewers,
-    uniq_viewers_gt_30min.uniq_viewers_gt_30 AS uniq_viewers_gt_30min,
-    uniq_viewers_lte_30min.uniq_viewers_lte_30 AS uniq_viewers_lte_30min
+    ss.username AS username,
+    COALESCE(ss.total_streams, 0) AS total_streams,
+    COALESCE(asd.avg_stream_duration, 0) AS avg_stream_duration,
+    COALESCE(stv.total_viewers, 0) AS total_viewers,
+    COALESCE(sugt30.uniq_viewers_gt_30min, 0) AS uniq_viewers_gt_30min,
+    COALESCE(sult30.uniq_viewers_lte_30min, 0) AS uniq_viewers_lte_30min
 FROM
-    streamers s
+    StreamerStreams ss
 LEFT JOIN
-    StreamerTotalStreams ts ON s.id = ts.streamer_id
+    StreamerAvgStreamDuration asd ON ss.username = asd.username
 LEFT JOIN
-    StreamerAvgStreamDuration avg_stream_duration ON s.id = avg_stream_duration.streamer_id
+    StreamerTotalViewers stv ON ss.username = stv.username
 LEFT JOIN
-    StreamerTotalViewers total_viewers ON s.id = total_viewers.streamer_id
+    StreamerUniqViewersGt30Min sugt30 ON ss.username = sugt30.username
 LEFT JOIN
-    StreamerUniqViewersGt30Min uniq_viewers_gt_30min ON s.id = uniq_viewers_gt_30min.streamer_id
-LEFT JOIN
-    StreamerUniqViewersLte30Min uniq_viewers_lte_30min ON s.id = uniq_viewers_lte_30min.streamer_id;
+    StreamerUniqViewersLte30Min sult30 ON ss.username = sult30.username
+ORDER BY
+    ss.username ASC;
