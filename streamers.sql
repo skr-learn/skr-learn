@@ -49,11 +49,11 @@ StreamerUniqViewersLte30Min AS (
 )
 SELECT
     s.username AS streamer_username,
-    COALESCE(ts.total_streams, 0) AS total_streams,
-    COALESCE(avg_stream_duration.avg_duration, 0) AS avg_stream_duration,
-    COALESCE(total_viewers.total_viewers, 0) AS total_viewers,
-    COALESCE(uniq_viewers_gt_30min.uniq_viewers_gt_30, 0) AS uniq_viewers_gt_30min,
-    COALESCE(uniq_viewers_lte_30min.uniq_viewers_lte_30, 0) AS uniq_viewers_lte_30min
+    ts.total_streams,
+    avg_stream_duration.avg_duration AS avg_stream_duration,
+    total_viewers.total_viewers AS total_viewers,
+    uniq_viewers_gt_30min.uniq_viewers_gt_30 AS uniq_viewers_gt_30min,
+    uniq_viewers_lte_30min.uniq_viewers_lte_30 AS uniq_viewers_lte_30min
 FROM
     streamers s
 LEFT JOIN
